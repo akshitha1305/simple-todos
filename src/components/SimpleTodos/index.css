@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffc2a0;
+}
+.todo-container {
+  background-color: #ffffffff;
+  border-radius: 10px;
+  padding: 25px;
+  border-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  font-weight: 600;
+  font-size: 35px;
+  color: #ff8542;
+  align-self: center;
+}
+.todo-items-container {
+  list-style-type: none;
+}
